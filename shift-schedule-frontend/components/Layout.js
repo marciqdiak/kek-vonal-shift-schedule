@@ -52,7 +52,13 @@ const Layout = ({ children }) => {
         justify-content: center;
         align-items: center;
         text-decoration: none;
-        color: inherit;
+        text-transform: uppercase;
+        color: #3a495a; /* A shade of blue that matches well with blue tones */
+        background: linear-gradient(45deg, #00b4d8, #90e0ef); /* Gradient background with blue tones */
+        padding: 5px 20px; /* Smaller padding around the text */
+        border-radius: 3px; /* Slightly rounded corners */
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Text shadow for subtle shine */
+        box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2); /* Box shadow for depth */
       }
       code {
         background: #fafafa;

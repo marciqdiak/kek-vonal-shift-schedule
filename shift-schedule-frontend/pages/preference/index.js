@@ -3,11 +3,8 @@ import styles from '../../styles/Home.module.css';
 import Layout from '../../components/Layout';
 import { useFormik } from 'formik';
 import { TextField, Button, Grid } from '@mui/material';
-import { useRouter } from 'next/router'
-
 
 export default function Register() {
-  const router = useRouter()
   const formik = useFormik({
     initialValues: {
       email: '',
@@ -17,7 +14,6 @@ export default function Register() {
     },
     onSubmit: values => {
       alert(JSON.stringify(values, null, 2));
-      router.push('/preference')
     },
   });
   return (
