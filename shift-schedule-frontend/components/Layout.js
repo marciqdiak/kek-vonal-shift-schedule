@@ -19,7 +19,7 @@ const Layout = ({ children }) => {
       {/* Common footer */}
       <footer>
       <a
-        href="https://www.linkedin.com/in/code-marci/"
+        href="https://www.boredbutton.com/random"
         target="_blank"
         rel="noopener noreferrer"
       >
